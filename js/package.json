@@ -8,7 +8,7 @@
     "start": "node main.js"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/andrew111111111111/hw-2.4js.git"
   },
   "keywords": [
@@ -16,9 +16,12 @@
   ],
   "author": "Andrew",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/andrew111111111111/hw-2.4js/issues"
   },
-  "homepage": "https://github.com/andrew111111111111/hw-2.4js#readme"
+  "homepage": "https://github.com/andrew111111111111/hw-2.4js#readme",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
 }
